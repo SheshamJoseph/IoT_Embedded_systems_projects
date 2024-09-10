@@ -1,11 +1,11 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Nokia 2.1";
-const char* password = "cipherss";
+const char* ssid = "";
+const char* password = "";
 
-const String bot_token = "7112765359:AAF-ercfwrpNYp6mG-UszniaYuYhoPsyOug";
-const String chat_id = "1882799297";
+const String bot_token = "";
+const String chat_id = "";
 
 void sendTelegramMessage(String message){
 	if (WiFi.status() == WL_CONNECTED){
